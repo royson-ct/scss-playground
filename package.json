@@ -1,0 +1,24 @@
+{
+  "name": "scss-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --no-source-map --load-path=node_modules index.scss index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royson-ct/scss-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/royson-ct/scss-playground/issues"
+  },
+  "homepage": "https://github.com/royson-ct/scss-playground#readme",
+  "dependencies": {
+    "bootstrap-vue": "^2.17.3",
+    "sass": "^1.26.12"
+  }
+}
